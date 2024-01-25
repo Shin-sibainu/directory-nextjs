@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+//https://medium.com/@mertenercan/nextjs-13-folder-structure-c3453d780366
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">

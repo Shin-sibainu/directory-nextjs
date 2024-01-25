@@ -1,0 +1,51 @@
+├─ components/
+│  ├─ elements/
+│  │  ├─ button/
+│  │  │  ├─ Button.tsx
+│  │  │  ├─ Button.styled.tsx
+│  │  │  └─ Button.stories.tsx
+│  │  ├─ input/
+│  │  │  ├─ Input.tsx
+│  │  │  ├─ Input.styled.tsx
+│  │  │  └─ Input.stories.tsx
+│  ├─ layouts/
+│  │  ├─ header/
+│  │  │  ├─ Header.tsx
+│  │  │  ├─ Header.styled.tsx
+│  │  │  └─ Header.stories.tsx
+│  │  └─ footer/
+│  │     ├─ Footer.tsx
+│  │     ├─ Footer.styled.tsx
+│  │     └─ Footer.stories.tsx
+├─ pages/
+│  ├─ api/
+│  │   ├─ v1/
+│  │   └─ v2/
+│  ├─ blog/index.tsx
+│  ├─ _app.tsx
+│  ├─ _document.tsx
+│  └─ index.tsx
+├─ features/
+│  └─ /blog
+│     ├─ stores/
+│     ├─ constants/
+│     ├─ components/
+│     │  ├─ Index.ts
+│     │  ├─ BlogList/
+│     │  │  ├─ BlogList.tsx 
+│     │  │  ├─ BlogList.styled.tsx
+│     │  │  └─ BlogList.stories.tsx
+│     │  ├─ BlogImage/
+│     │  │  ├─ BlogImage.tsx 
+│     │  │  ├─ BlogImage.styled.tsx
+│     │  │  └─ BlogImage.stories.tsx
+│     ├─ hooks/
+│     │  └─ useBlog.ts
+│     └─ types/
+│        └─ index.ts
+├─ hooks/
+├─ styles/
+├─ stores/
+├─ configs/
+├─ constants/
+└─ types/
